@@ -6,6 +6,6 @@ const StudentSchema = new mongoose.Schema({
     password: String
 })
 
-const StudentModel = mongoose.model('stu_virat',StudentSchema)
+const StudentModel = mongoose.model('dbinfo',StudentSchema)
 module.exports = StudentModel
 
